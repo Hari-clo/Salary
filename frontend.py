@@ -14,7 +14,7 @@ def show_ui(model, predict_func):
         salary = predict_func(model, years)
         
         reactions = [
-            f"Cha-ching! You might be making ₹ {salary:,.2f} soon!",
+            f"You might be making ₹ {salary:,.2f} soon!",
             f"Looks like your experience is finally gonna pay off! ₹ {salary:,.2f} 💰",
             f"Holy smokes! You could be earning ₹ {salary:,.2f} 😮",
             f"Bro you better ask for a raise if you're getting less than ₹ {salary:,.2f} 😂",
