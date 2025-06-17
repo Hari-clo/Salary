@@ -1,5 +1,5 @@
-from backend.model import train_model, predict_salary
-from app.frontend import show_ui
+from model import train_model, predict_salary
+from frontend import show_ui
 
 model = train_model("data/Salary_Data.csv")
 
